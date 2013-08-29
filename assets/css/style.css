@@ -13,19 +13,31 @@
 body {
 	padding-top: 110px;
 }
+
+#project-thumbnails {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.row {
+	padding-top: 0px;
+	padding-right: 0px;
+}
+
+
 .grid {
-	padding: 20px 20px 100px 20px;
 	max-width: 1300px;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
+	padding-top: 0px;
 }
 
 .grid li {
 	display: inline-block;
-	width: 440px;
-	margin: 0;
-	padding: 20px;
+	width: 250px;
+	margin: 10px;
+	padding: 0px;
 	text-align: left;
 	position: relative;
 }
@@ -45,29 +57,68 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: 20px;
-	background: #2c3f52;
-	color: #ed4e6e;
+	padding: 10px;
+	background-image: -webkit-gradient(
+	  linear, left top, left bottom, from(rgba(0,0,0,.85)),
+	  to(rgba(26,26,26,1)), color-stop(.5,#1a1a1a)
+	);
+	text-align: center;
 }
 
-.grid figcaption h3 {
+.grid figcaption .project-thumb-title {
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	
+	font-family: Fairview;
+	url:src(assets/fonts/Fairview.otf);
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	line-height: 24px;
 }
 
+.grid figcaption .project-thumb-title:hover {
+	margin: 0;
+	padding: 0;
+	
+	text-decoration: none;
+	color: #cc2929;
+}
+
+.grid figcaption .project-thumb-type {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 3px;
+	padding-top: 3px;
+	
+	font-family: Wisdom Script AI;
+	url:src(assets/fonts/WisdomScript.otf);
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 24px;
+	
+	border-top: 1px white solid;
+}
+
+/*
 .grid figcaption span:before {
 	content: 'by ';
 }
 
 .grid figcaption a {
+	margin: 0;
+	padding: 0;
+	
+	font-family: Fairview;
+	url:src(assets/fonts/Fairview.otf);
+	font-size: 24px;
+	color: black;
 	text-align: center;
-	padding: 5px 10px;
-	border-radius: 2px;
-	display: inline-block;
-	background: #ed4e6e;
-	color: #fff;
+	line-height: 24px;
+
 }
+*/
 
 /* Individual Caption Styles */
 /* Caption Style 3 */
@@ -116,11 +167,13 @@ body {
 	transition: transform 0.4s, opacity 0.1s;
 }
 
+/*
 .cs-style-3 figcaption a {
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
 }
+*/
 
 @media screen and (max-width: 31.5em) {
 	.grid {
