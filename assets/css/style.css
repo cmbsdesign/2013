@@ -256,10 +256,13 @@ body {
 }
 
 #project-image {
-	padding-top: 20px;
 	padding-bottom: 40px;
 	margin-left: 0px;
 	background: #fff;
+}
+
+#project-image img {
+	padding-top: 20px;
 }
 
 #project-description-section {
@@ -275,10 +278,10 @@ body {
 .project-intro-1 {
 	font-family: Fairview;
 	url:src(assets/fonts/Fairview_Regular.otf);
-	font-size: 36px;
+	font-size: 42px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	line-height: 28px;
+	line-height: 36px;
 }
 
 .project-intro-2 {
@@ -294,11 +297,11 @@ body {
 }
 
 #footer p {
-	padding-top: 7px;
+	padding-top: 10px;
 }
 
 #social-links {
-	margin-top: 5px;
+	margin-top: 7px;
 }
 
 #social-links li {
