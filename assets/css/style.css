@@ -10,8 +10,15 @@
 	font-size: 16px;
 }
 
+
 body {
 	padding-top: 110px;
+}
+
+#about-description {
+	margin-left: 0px;
+	padding-left: 90px;
+	padding-right: 30px;
 }
 
 #project-thumbnails {
@@ -180,8 +187,8 @@ body {
 		padding: 10px 10px 100px 10px;
 	}
 	.grid li {
-		width: 100%;
-		min-width: 300px;
+		width: 10%;
+		min-width: 250px;
 	}
 }
 
@@ -222,8 +229,6 @@ body {
 	letter-spacing: -7px;
 }
 
-
-
 #contact-section {
 	padding-top: 30px;
 	padding-bottom: 40px;
@@ -246,12 +251,53 @@ body {
 	line-height: 40px;
 }
 
+#project-image-section {
+	margin-left: 80px;
+}
+
+#project-image {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-left: 0px;
+}
+
+#project-description-section {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background: #e8e8e8;
+}
+
+.project-intro-1 {
+	font-family: Fairview;
+	url:src(assets/fonts/Fairview_Regular.otf);
+	font-size: 36px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	line-height: 28px;
+}
+
+.project-intro-2 {
+	font-family: Wisdom Script AI;
+	url:src(assets/fonts/WisdomScript.otf);
+	font-size: 18px;
+	margin-top: 0px;
+	line-height: 40px;
+}
+
 #footer {
 	background: black;
 }
 
 #footer p {
-	padding-top: 5px;
+	padding-top: 7px;
+}
+
+#social-links {
+	margin-top: 5px;
+}
+
+#social-links li {
+	display: inline;
 }
 
 .text-muted-credit {
