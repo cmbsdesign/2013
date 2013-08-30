@@ -259,11 +259,16 @@ body {
 	padding-top: 20px;
 	padding-bottom: 40px;
 	margin-left: 0px;
+	background: #fff;
 }
 
 #project-description-section {
 	padding-top: 20px;
 	padding-bottom: 40px;
+	background: #e8e8e8;
+}
+
+#back {
 	background: #e8e8e8;
 }
 
