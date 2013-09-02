@@ -12,7 +12,11 @@
 
 
 body {
-	padding-top: 110px;
+	padding-top: 80px;
+}
+
+#section-1 {
+	padding-top: 10px;
 }
 
 #about-description {
@@ -235,6 +239,16 @@ body {
 	background: #e8e8e8;
 }
 
+#contact-section a {
+	color: #e52222;
+	text-decoration: none;
+}
+
+#contact-section a:hover {
+	color: #c01e1e;
+	text-decoration: none;
+}
+
 .contact-intro-1 {
 	font-family: Fairview;
 	url:src(assets/fonts/Fairview_Regular.otf);
@@ -262,7 +276,7 @@ body {
 }
 
 #project-image img {
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .project-image-2-column {
@@ -276,7 +290,7 @@ body {
 }
 
 #project-description-section {
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 	background: #e8e8e8;
 }
