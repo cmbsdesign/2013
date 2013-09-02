@@ -265,10 +265,30 @@ body {
 	padding-top: 20px;
 }
 
+.project-image-2-column {
+	width: 335px;
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
+.video {
+	padding-top: 20px;
+}
+
 #project-description-section {
 	padding-top: 20px;
 	padding-bottom: 40px;
 	background: #e8e8e8;
+}
+
+#project-description-section a {
+	color: #e52222;
+	text-decoration: none;
+}
+
+#project-description-section a:hover {
+	color: #c01e1e;
+	text-decoration: none;
 }
 
 #back {
