@@ -92,10 +92,24 @@ body {
 	top: 0;
 	left: 0;
 	padding: 10px;
+	
 	background-image: -webkit-gradient(
 	  linear, left top, left bottom, from(rgba(0,0,0,.85)),
 	  to(rgba(26,26,26,1)), color-stop(.5,#1a1a1a)
 	);
+	
+	background-image: -webkit-linear-gradient(
+	  top, #272727, #1a1a1a);
+	
+	background-image: -moz-linear-gradient(
+	  top, #272727, #1a1a1a);
+	
+	background-image: -o-linear-gradient(
+	  ltop, #272727, #1a1a1a);
+	
+	background-image: -linear-gradient(
+	  to bottom, #272727, #1a1a1a);
+	
 	text-align: center;
 }
 
